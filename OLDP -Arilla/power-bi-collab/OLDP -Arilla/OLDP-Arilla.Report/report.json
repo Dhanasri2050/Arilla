@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
   "filters": "[]",
   "layoutOptimization": 0,
   "publicCustomVisuals": [
@@ -36,27 +36,6 @@
     }
   ],
   "sections": [
-    {
-      "config": "{}",
-      "displayName": "Page 2",
-      "displayOption": 1,
-      "filters": "[]",
-      "height": 720.00,
-      "name": "1e037f4053e1ab4bfc7f",
-      "ordinal": 2,
-      "visualContainers": [
-        {
-          "config": "{\"name\":\"78c19e54476e74b40386\",\"layouts\":[{\"id\":0,\"position\":{\"x\":359.8393574297189,\"y\":154.21686746987953,\"z\":0,\"width\":529.4779116465863,\"height\":381.68674698795184,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"gold_report_aged_stock_maps.actual_conditional_date_aedt\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(gold_report_aged_stock_maps.contract_number)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"actual_conditional_date_aedt\"},\"Name\":\"gold_report_aged_stock_maps.actual_conditional_date_aedt\",\"NativeReferenceName\":\"actual_conditional_date_aedt\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_number\"}},\"Function\":5},\"Name\":\"CountNonNull(gold_report_aged_stock_maps.contract_number)\",\"NativeReferenceName\":\"contract_number\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"actual_conditional_date_aedt\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
-          "filters": "[]",
-          "height": 381.69,
-          "width": 529.48,
-          "x": 359.84,
-          "y": 154.22,
-          "z": 0.00
-        }
-      ],
-      "width": 1280.00
-    },
     {
       "config": "{}",
       "displayName": "Map View",
@@ -245,15 +224,15 @@
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
-      "name": "c613475798eeb8989993",
+      "name": "b5ab540e157b0dc874de",
       "ordinal": 1,
       "visualContainers": [
         {
-          "config": "{\"name\":\"937334d0e31d5d80a3c5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":51.81530676786844,\"y\":0,\"z\":0,\"width\":616.9259962049337,\"height\":720.5566097406705,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"gold_report_aged_stock_maps (2).epicore_unit_no\"},{\"queryRef\":\"gold_report_aged_stock_maps (2).epicore_unit_no_extract\"},{\"queryRef\":\"gold_report_aged_stock_maps.epicore_unit_no_extract\"},{\"queryRef\":\"Measure.Status Check\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0},{\"Name\":\"g1\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"Measure\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"epicore_unit_no_extract\"},\"Name\":\"gold_report_aged_stock_maps.epicore_unit_no_extract\",\"NativeReferenceName\":\"epicore_unit_no_extract\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g1\"}},\"Property\":\"epicore_unit_no_extract\"},\"Name\":\"gold_report_aged_stock_maps (2).epicore_unit_no_extract\",\"NativeReferenceName\":\"epicore_unit_no_extract1\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Status Check\"},\"Name\":\"Measure.Status Check\",\"NativeReferenceName\":\"Status Check\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g1\"}},\"Property\":\"epicore_unit_no\"},\"Name\":\"gold_report_aged_stock_maps (2).epicore_unit_no\",\"NativeReferenceName\":\"epicore_unit_no\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Status Check\"}}}]},\"drillFilterOtherVisuals\":true}}",
-          "filters": "[{\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Measure\"}},\"Property\":\"Status Check\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"Measure\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Comparison\":{\"ComparisonKind\":2,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Status Check\"}},\"Right\":{\"Literal\":{\"Value\":\"2L\"}}}}}]},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false},{\"name\":\"f5d3c95c057e359e5898\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"gold_report_aged_stock_maps\"}},\"Property\":\"project_name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"project_name\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'The Cambridge'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}]",
-          "height": 720.56,
-          "width": 616.93,
-          "x": 51.82,
+          "config": "{\"name\":\"b0e06a5e20a1770231e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":582.051719762855,\"height\":720.0055364598953,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"gold_report_aged_stock_maps.contract_number\"},{\"queryRef\":\"gold_report_aged_stock_maps.contract_status\"},{\"queryRef\":\"gold_report_aged_stock_maps.epicore_unit_no\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_number\"},\"Name\":\"gold_report_aged_stock_maps.contract_number\",\"NativeReferenceName\":\"contract_number\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_status\"},\"Name\":\"gold_report_aged_stock_maps.contract_status\",\"NativeReferenceName\":\"contract_status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"epicore_unit_no\"},\"Name\":\"gold_report_aged_stock_maps.epicore_unit_no\",\"NativeReferenceName\":\"epicore_unit_no\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.01,
+          "width": 582.05,
+          "x": 9.45,
           "y": 0.00,
           "z": 0.00
         }
