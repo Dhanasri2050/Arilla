@@ -228,6 +228,15 @@
       "ordinal": 1,
       "visualContainers": [
         {
+          "config": "{\"name\":\"72d8f7d5b4062b5a5eb8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":601,\"y\":0,\"width\":582,\"height\":720,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"gold_report_aged_stock_maps.contract_status\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(gold_report_aged_stock_maps.sales_price_mst)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_status\"},\"Name\":\"gold_report_aged_stock_maps.contract_status\",\"NativeReferenceName\":\"contract_status\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"sales_price_mst\"}},\"Function\":0},\"Name\":\"Sum(gold_report_aged_stock_maps.sales_price_mst)\",\"NativeReferenceName\":\"Sum of sales_price_mst\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"sales_price_mst\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 582.00,
+          "x": 601.00,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
           "config": "{\"name\":\"b0e06a5e20a1770231e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":582.051719762855,\"height\":720.0055364598953,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"gold_report_aged_stock_maps.contract_number\"},{\"queryRef\":\"gold_report_aged_stock_maps.contract_status\"},{\"queryRef\":\"gold_report_aged_stock_maps.epicore_unit_no\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"g\",\"Entity\":\"gold_report_aged_stock_maps\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_number\"},\"Name\":\"gold_report_aged_stock_maps.contract_number\",\"NativeReferenceName\":\"contract_number\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"contract_status\"},\"Name\":\"gold_report_aged_stock_maps.contract_status\",\"NativeReferenceName\":\"contract_status\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"g\"}},\"Property\":\"epicore_unit_no\"},\"Name\":\"gold_report_aged_stock_maps.epicore_unit_no\",\"NativeReferenceName\":\"epicore_unit_no\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 720.01,
